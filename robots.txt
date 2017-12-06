@@ -1,0 +1,4 @@
+# robots.txt of http://luckybusted.github.io/
+
+User-agent: *
+Disallow: /
