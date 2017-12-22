@@ -13,7 +13,7 @@ The idea was to save the JSON Request files that came out of the AVS (Alexa Voic
 
 It will look something like this: 
 
-![Alexa to S3 to RasPi workflow](http://luckybusted.github.io/_assets/Alexa-Json-workflow-1.png)
+![Alexa to S3 to RasPi workflow](/assets/Alexa-Json-workflow-1.png)
 
 This may be a hint: https://foobar123.com/serverless-save-a-file-in-s3-using-aws-lamdba-d3f087880dd2
 
