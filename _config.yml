@@ -23,7 +23,7 @@ category_dir: /
 baseurl: /
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://luckybusted.github.io/
+url: https://luckybusted.github.io/
 
 #### Under the Hood Stuff #####
 
