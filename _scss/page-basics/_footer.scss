@@ -1,0 +1,23 @@
+.footer {
+  clear: both;
+  background: $black;
+  color: $white;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  text-transform: lowercase;
+
+  .footer-nav {
+    flex: auto;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+  .copy {
+    flex: auto;
+    text-align: right;
+  }
+
+}
+

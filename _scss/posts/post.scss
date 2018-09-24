@@ -1,0 +1,53 @@
+.post {
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+
+    h1 {
+      text-transform: lowercase;
+      text-align: center;
+      font-weight: 100;
+      height: 30vh;
+      line-height: 30vh;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .post-nav {
+    ul {
+      display: flex;
+      width: 100%;
+      li {
+        flex: auto;
+        text-align: center;
+        a {
+          height: 10vh;
+          line-height: 10vh;
+          color: $white;
+          text-decoration: none;
+          text-transform: lowercase;
+          display: block;
+        }
+        &:first-child {
+          a {
+            background: $green;
+          }
+        }
+        &:last-child {
+          a {
+            background: $red;
+          }
+        }
+      }
+    }
+  }
+
+}
