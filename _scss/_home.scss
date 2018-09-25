@@ -83,10 +83,7 @@
           display: block;
         }
         .entry {
-          font-size: .6em;
-          @media (min-width: 992px) {
-            font-size: 1em;
-          }
+          font-size: 1em;
         }
       }
     }
