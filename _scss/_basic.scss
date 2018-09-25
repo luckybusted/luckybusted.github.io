@@ -8,13 +8,14 @@ body {
   font-size: 16px;
   font-family: 'Roboto', Arial, SunSans-Regular, Sans-Serif;
 
-  @media screen and (min-width: 768px) {
-    font-size: 14px;
+  @media all and (min-width: 768px) {
+    font-size: 34px;
   }
 
-  @media screen and (min-width: 1024px) {
+  @media all and (min-width: 1024px) {
     font-size: 12px;
   }
+
 }
 
 body>header h1>a {
