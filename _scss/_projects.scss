@@ -1,0 +1,31 @@
+.projects-overview {
+  .projects {
+    display: flex;
+    list-style: none;
+    .project {
+      height: 50vw;
+      width: 50vw;
+      a {
+        height: 50vw;
+        width: 50vw;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.4em;
+        display: flex;
+        text-decoration: none;
+        &:hover {
+          opacity: .7;
+        }
+        &.max-baier{
+          background: #000;
+          color: #fff;
+        }
+        &.bar-finder {
+          background: #00ffff;
+          color: #fff;
+          text-shadow: 10px 0 0 #9ff;
+        }
+      }
+    }
+  }
+}

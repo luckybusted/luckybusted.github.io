@@ -3,11 +3,11 @@
 
   .header {
     color: #fff;
-    height: 60vh;
+    min-height: 60vh;
     text-align: center;
     position: relative;
     @media all and (min-width: 1024px) {
-      height: 100vh;
+      min-height: 100vh;
     }
 
     a {
@@ -17,7 +17,7 @@
     }
 
     .txt {
-      font-size: 1.4em;
+      font-size: 2.4em;
       font-weight: 100;
       //letter-spacing: 1px;
       left: 50%;
@@ -40,7 +40,7 @@
     width: 100%;
     .blog {
       .blog-nav {
-        font-size: 1.2em;
+        font-size: 2.4em;
         background: white;
         font-weight: 400;
         color: black;
@@ -76,14 +76,14 @@
               text-transform: lowercase;
             }
           }
+          .entry {
+            font-size: 1.2em;
+          }
         }
       }
       &.active {
         .blog-cont {
           display: block;
-        }
-        .entry {
-          font-size: 1em;
         }
       }
     }
